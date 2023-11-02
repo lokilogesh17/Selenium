@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate the login portal",
+        "description": "",
+        "id": "to-validate-the-icici-login;to-validate-the-login-portal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1573186000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chr browser",
+            "match": {
+              "location": "IciciTest.toLaunchTheChrBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2394212900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the icici url",
+            "match": {
+              "location": "IciciTest.toLaunchTheIciciUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7399224100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click the login button",
+            "match": {
+              "location": "IciciTest.toClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316616600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To close the chr browser",
+            "match": {
+              "location": "IciciTest.toCloseTheChrBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scene2"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the icici login",
+    "description": "",
+    "id": "to-validate-the-icici-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/icici.feature",
+    "tags": []
+  }
+]

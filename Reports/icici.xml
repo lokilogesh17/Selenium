@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.68602">
+    <testcase classname="To validate the icici login" name="To validate the login portal" time="11.68602">
+        <system-out><![CDATA[Given To launch the chr browser.............................................passed
+When To launch the icici url................................................passed
+And To click the login button...............................................passed
+Then To close the chr browser...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
